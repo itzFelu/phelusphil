@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <!-- <link href="file:///C:/Users/Zingalala/Documents/Code_docs/Web_D/Forms/dialouge.html">
+    <link href="file:///C:/Users/Zingalala/Documents/Code_docs/Web_D/Forms/sign_up.html"> -->
+    <style>
+        body{
+            background-image: url(couple_on_rock.jpg);
+        }
+        #heading {
+            background-color: rgb(226, 102, 102);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Registration Form</h1><hr><hr>
+    <form>
+        <div>
+            Name: <input type="text" name="myName">
+        </div>
+        <div>
+            Password:<input type="password" name="psw">
+        </div>
+        <div>
+            Confirm Password:<input type="text"><br>
+            Phone Number:<input type="numbers"><br>
+            e-mail id: <input type="email"><br>
+        </div>
+        <div>
+            gender <input type="radio" value="Male" name="gender">
+            <label for="Male">Male</label>
+            <input type="radio" value="Female" name="gender">
+            <label for="Female">Female</label>
+            <input type="radio" value="Others" name="gender">
+            <label for="Female">Others</label>
+            <!-- <input type="reset" value="clear"> -->
+        </div>
+        <div>
+            Date of Birth:<input type="date">
+        </div>
+        <div>
+            Languages Known:<br>
+            <input type="checkbox">English  <input type="checkbox">Telugu   <input type="checkbox">Hindi    <input type="checkbox">Tamil
+        </div>
+        <div>
+            Choose your continent
+            <select>
+                <option value="">-select-</option>
+                <option value="">Asia</option>
+                <option value="">America</option>
+                <option value="">Europe</option>
+            </select>
+        </div>
+    </form>
+    <a href="dialouge.html">submit</a>
+    <div>
+        <br>
+        already have an account? <a href="index.html">sign in</a>
+    </div>
+</body>
+</html>
