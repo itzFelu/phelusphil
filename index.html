@@ -5,19 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>log in to continue</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
 </head>
 <body>
     <h2>Welcome to the login portal</h2>
     <h4>kindly login to your account</h4>
     <form>
-        <div>
-            user name:<input type="text"><br>
-            password:<input type="password"><br>
-            <a href="first.html">login</a>
+        <div id="log">
+            <!-- <span>user name:</span><br> -->
+            <input type="text" placeholder="USER NAME*" id="uid-el" required><br>
+            <!-- <span>password: </span><br> -->
+            <input type="password" placeholder="PASSWORD*"id="pass-el" required><br>
+            <p id="alert-el" ></p>
+            <a id="login-el" onclick=check() >login</a>
         </div>
-        <div>
+        <div style="font-size: 13px;">
             don't have an account?
-            <a href="sign_up.html">sign up first</a>
+            <a id="no-ac" href="./html/sign_up.html">sign up first</a>
         </div>
     </form>
 </body>
