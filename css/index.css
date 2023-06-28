@@ -1,5 +1,4 @@
 body{
-    /* position: absolute; */
     line-height: 20px;
     letter-spacing: 1px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -23,9 +22,15 @@ h4{
     
     padding: 10px;
 }
-uid-el pass-el{
-    width: 30%;
+#uid-el,#pass-el{
+    width: 10vw;
 }
+input::placeholder{
+    font-size: 10px;
+}
+/* uid-el pass-el{
+    width: 30%;
+} */
 #login-el{
     background-color: darkblue;
     color: wheat;
@@ -37,6 +42,7 @@ uid-el pass-el{
     margin: 10px;
     text-decoration: none;
     display: inline-block;
+    font-size: large;
 }
 #login-el:hover{
     background-color: rebeccapurple;

@@ -8,7 +8,8 @@ function check(){
     let alrt=document.getElementById("alert-el");
     
     if(uid.value=="felu" && pass.value=="123"){
-        window.location.href="./html/blog.html";
+        // window.location.href="./html/blog.html";
+        window.location.replace("./html/blog.html");
     }
     else if(uid.value=="" || pass.value==""){
         alrt.style.display="none";
